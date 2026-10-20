@@ -20,9 +20,9 @@ java -cp Task1 StudentGradeTracker
 
 The example grade scale is: A+ (90+), A (80+), B (70+), C (60+), D (50+), E (33+), F (below 33). These grade boundaries are implementation choices; the task brief does not prescribe a scale.
 
-## Task 3: Artificial Intelligence Chatbot
+## Task 2: Artificial Intelligence Chatbot
 
-**Source:** [`Task3/AIChatbot.java`](Task3/AIChatbot.java)
+**Source:** [`Task2/AIChatbot.java`](Task3/AIChatbot.java)
 
 A rule-based console chatbot demonstrating introductory NLP-style preprocessing and intent detection.
 
@@ -36,15 +36,15 @@ A rule-based console chatbot demonstrating introductory NLP-style preprocessing 
 ### Compile and run
 
 ```bash
-javac Task3/AIChatbot.java
-java -cp Task3 AIChatbot
+javac Task2/AIChatbot.java
+java -cp Task2 AIChatbot
 ```
 
 **Scope note:** This is a small rule-based chatbot, not a trained machine-learning model. Its responses are based on predefined phrases and rules.
 
-## Task 4: Hotel Reservation System
+## Task 3: Hotel Reservation System
 
-**Source:** [`Task4/HotelReservationSystem.java`](Task4/HotelReservationSystem.java)
+**Source:** [`Task3/HotelReservationSystem.java`](Task4/HotelReservationSystem.java)
 
 A console-based hotel booking system with Standard, Deluxe, and Suite rooms.
 
@@ -60,8 +60,8 @@ A console-based hotel booking system with Standard, Deluxe, and Suite rooms.
 ### Compile and run
 
 ```bash
-javac Task4/HotelReservationSystem.java
-java -cp Task4 HotelReservationSystem
+javac Task3/HotelReservationSystem.java
+java -cp Task3 HotelReservationSystem
 ```
 
 Run it from the repository root so the data file is created as `bookings.txt` in that directory. Use dates in `YYYY-MM-DD` format. The room inventory and prices are sample data.
